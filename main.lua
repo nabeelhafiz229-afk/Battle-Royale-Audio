@@ -14,7 +14,7 @@ import "java.lang.System"
 local TEST = rawget(_G, "CSR_TEST")
 local context = activity or service
 local mainHandler = Handler(Looper.getMainLooper())
-local APP_VERSION = "1.3"
+local APP_VERSION = "1.4"
 
 -- Commentary language: "en" (default) or "ur". Change it in Settings.
 -- T("urdu text") returns the text in the chosen language. All words are listed at the end of this file.
